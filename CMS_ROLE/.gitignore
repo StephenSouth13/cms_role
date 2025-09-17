@@ -1,0 +1,30 @@
+# Node
+node_modules/
+npm-debug.log*
+pnpm-lock.yaml
+package-lock.json
+yarn.lock
+
+# Directus build
+.env
+.env.local
+.env.production
+/dist
+/.directus
+
+# Logs & caches
+logs
+*.log
+pids
+*.pid
+*.seed
+tmp/
+.cache/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Editor
+.vscode/
+.idea/
